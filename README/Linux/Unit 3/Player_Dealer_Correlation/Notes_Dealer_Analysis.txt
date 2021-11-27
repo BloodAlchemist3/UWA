@@ -1,0 +1,9 @@
+Common Dealer 
+
+Times of interest 
+loss times on 0310	loss times on 0312	loss times 0315
+0500 Billy Jones	0800 Billy Jones	0500	Billy Jones
+0800 Billy Jones	1400 Billy Jones	0800	Billy Jones
+1400 Billy Jones	2300 Billy Jones	1400	Billy Jones
+2000 Billy Jones
+2300 Billy Jones
