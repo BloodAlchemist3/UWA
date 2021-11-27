@@ -106,7 +106,7 @@ $ mkdir files
 
 ## Clone Repository + IaC Files
 
-$ git clone https://github.com/yourusername/project-1.git
+$ git clone https://github.com/BloodAlchemist3/project-1.git
 
 ## Move Playbooks and hosts file Into `/etc/ansible`
 
