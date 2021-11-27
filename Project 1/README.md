@@ -47,12 +47,12 @@ Machines within the network can only be accessed by connection via the JumpBoxPr
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Function   | External IP Address                  | Internal IP Address | Operating System |
-|----------|------------|--------------------------------------|---------------------|------------------|
-| Jump Box | Gateway    | 20.37.5.155                          | 10.1.0.9            | Linux            |
-| Web-1    | DVWA Host  | Via Load Ballancer Red-LB 20.37.4.99 | 10.1.0.7            | Linux            |
-| Web-2    | DVWA Host  | Via Load Ballancer Red-LB 20.37.4.99 | 10.1.0.8            | Linux            |
-| ELK-VM   | Monitoring | 40.127.65.171                        | 10.0.0.5            | Linux            |
+| Name     | publicly Accessible | Allowed IP address |
+|----------|---------------------|--------------------|
+| Web-1    | NO                  | 10.1.0.0           |
+| Web-2    | NO                  | 10.1.0.0           |
+| ELK      | NO                  | 10.0.0.0           |
+| Jump Box | Yes                 | Listed Personal IP |
 
 ### Elk Configuration
 
